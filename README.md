@@ -8,4 +8,6 @@ https://www.mikrocontroller.net/articles/Word_Clock where you can also see some
 pics of what the clock looks like. And then the kata-rush set in and we
 built what is the initial commit in this repo.
 
+![word clock](https://www.mikrocontroller.net/wikifiles/thumb/1/1e/WordClock-gelb.jpg/360px-WordClock-gelb.jpg)
+
 Have fun doing this kata in any language or however you like.
