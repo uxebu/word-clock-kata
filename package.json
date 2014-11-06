@@ -1,0 +1,14 @@
+{
+  "name": "wordclock-kata",
+  "version": "0.0.0",
+  "description": "word clock kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
