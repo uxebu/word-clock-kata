@@ -85,6 +85,15 @@ describe('word clock', function() {
     it('for 18:46', function() {
       assertTime('18:46', ['viertel', 'vor', 'sieben']);
     });
+    it('for 18:50', function() {
+      assertTime('18:50', ['zehn', 'vor', 'sieben']);
+    });
+    it('for 18:55', function() {
+      assertTime('18:55', ['fünf', 'vor', 'sieben']);
+    });
+    it('for 18:59', function() {
+      assertTime('18:59', ['fünf', 'vor', 'sieben']);
+    });
   });
   describe('should say eight oclock', function() {
     it('for 20:00', function() {
