@@ -78,6 +78,14 @@ describe('word clock', function() {
       assertTime('23:44', ['zehn', 'nach', 'halb', 'zwölf']);
     });
   });
+  describe('should say before oclock', function() {
+    it('for 18:45', function() {
+      assertTime('18:45', ['viertel', 'vor', 'sieben']);
+    });
+    it('for 18:46', function() {
+      assertTime('18:46', ['viertel', 'vor', 'sieben']);
+    });
+  });
   describe('should say eight oclock', function() {
     it('for 20:00', function() {
       assertTime('20:00', ['acht', 'uhr']);

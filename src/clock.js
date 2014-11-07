@@ -21,6 +21,9 @@ function toWordclock(date) {
   if (minutes < 20) {
     return [minutesToString[minutes - minutes % 5], 'nach', hourToString[hour]];
   }
+  if (minutes >= 45) {
+    return ['viertel', 'vor', hourToString[hour + 1]];
+  }
   return _handleMinutesAboveTwenty(minutes).concat(['halb', hourToString[hour + 1]]);
 }
 
